@@ -235,6 +235,7 @@ downloads/
 eggs/
 .eggs/
 lib/
+!lib/
 lib64/
 parts/
 sdist/
@@ -881,6 +882,10 @@ venv.bak/
 # Data files
 *.csv
 *.json
+!package-lock.json
+!package.json
+!tsconfig.json
+!.eslintrc.json
 *.xml
 *.parquet
 data/
